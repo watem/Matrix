@@ -28,18 +28,61 @@ public static class MatrixArrays {
 	}  //end matrixMult()
 
 	/**
-	team member b
+	* This method will display the content of a 2D array 
+	*
+	* @param int array[][]
+	* @author Yulia Kosharych
+	* @version 2018/04/24
+	*
 	**/
 	public static void print2DArray(int array[][]) {
+		
+	int row = array.length;
+			   
+	for (int r = 0; r< row ; r++) {
+	int col = array[r].length;
+				   
+			 
+	for(int c = 0; c < col; c++) {
+				   
+	System.out.print(" (" + r + "," + c + "): " + array[r][c] + "\t");
+			
+				   
+	 }
+	System.out.println();
+	System.out.println();
+			   
+	}
 
 	}  //end print2DArray()
 
 	/**
-	team member b
+	* This method will return a new array obtained by multyplying the initial 2D array by a scalar 
+	*
+	* @param int [][] array, int mult
+	* @author Yulia Kosharych
+	* @version 2018/04/24
+	*
 	**/
 	public static int [][] scalarMultiply(int [][] array, int mult) {
+		
+	int row = array.length;
+			   
+	int [][] multArray = array;
+					   
+	for (int r = 0; r< row ; r++) {
 
-//Return a new array
+	int col = array[r].length;
+				   
+
+	for(int c = 0; c < col; c++) {
+				   
+	multArray[r][c] = mult*array[r][c]; //Multiply the values of the initial array by a scalar
+	}
+	}
+	return multArray; //Return a new array
+
+
 	}  //end scalarMultiply()
 
 	/**
