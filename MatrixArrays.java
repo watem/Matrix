@@ -63,7 +63,9 @@ boolean compareInitial = areEqual2d(static2dArray, static2dArray);
 	team member a
 	**/
 	public static void print1DArray(int array[]) {
-
+		for (int i=0;i<array.length;i++) {
+			System.out.print(i": "+array[i]+"\t");
+		}
 	}  //end print1DArray()
 
 
@@ -71,7 +73,14 @@ boolean compareInitial = areEqual2d(static2dArray, static2dArray);
 	team member a
 	**/
   public static int [][]  matrixMult(int [] array1, int [] array2){
-
+		int[][] arrayMult = new int[array1.length][array2.length];
+		for (int i=0;i<array1.length;i++) {
+			for (int j=0;j<array2.length;j++) {
+				arrayMult[i][j]=array[i]*array2[j];
+			}
+		}
+		print2DArray(arrayMult);
+		Return arrayMult;
 	}  //end matrixMult()
 
 	/**
