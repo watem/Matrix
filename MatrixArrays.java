@@ -63,6 +63,10 @@ boolean compareInitial = areEqual2d(static2dArray, static2dArray);
 	team member a
 	**/
 	public static void print1DArray(int array[]) {
+		
+	int size = array.length;
+	for (int i = 0; i < size; i++) {
+	System.out.print(i + " : " + array[i] + " \t ");
 
 	}  //end print1DArray()
 
