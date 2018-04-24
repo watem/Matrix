@@ -80,8 +80,8 @@ boolean compareInitial = areEqual2d(static2dArray, static2dArray);
  *
  * @author Matthew Williams
  * @version 2018-04-23
- * @param int array1 						this is the left array in the matrix multiplication
- * @param int array2       			this is the right array in the matrix multiplication
+ * @param int array1 			this is the left array in the matrix multiplication
+ * @param int array2       		this is the right array in the matrix multiplication
  * @return int[][] arrayMult 		this is the matrix created by the matrix multiplication
  **/
  public static int [][]  matrixMult(int [] array1, int [] array2){
