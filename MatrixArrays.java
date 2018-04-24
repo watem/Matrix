@@ -132,7 +132,7 @@ public static class MatrixArrays {
      }
      return multArray;
    }  //end scalarMultiply()
-
+ 
    /**
    *
    * @param int [][] array
