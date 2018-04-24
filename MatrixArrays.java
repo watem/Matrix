@@ -6,8 +6,7 @@ public class MatrixArrays {
    * contain the same values as well as compare the initial 2D array to itself.
    * 
    * @authors Yulia Kosharych, Matthew Williams
-   * @version 2018/04/24
-   * @return void
+   * @version 2018-04-24
    * 
    **/
   public static void main (String[] args)  {
@@ -34,12 +33,8 @@ public class MatrixArrays {
      print1DArray(staticArray3);
    System.out.println("X");
      print1DArray(staticArray4);
-    
    System.out.println("=");
    matrixMult(staticArray3,staticArray4);
-
-
-     //Yulia
     
 
      //Display first 2D array
@@ -62,7 +57,6 @@ public class MatrixArrays {
    if (areEqual2d(static2dArray, multArray)) {
      System.out.println("The 2 arrays are equal");
     }else {
-    
      System.out.println("The 2 arrays are not equal");
     }
    }
