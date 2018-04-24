@@ -161,3 +161,4 @@ public static class MatrixArrays {
      return true;
    }//end areEqual2d()
 }  // end class
+
