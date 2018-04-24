@@ -1,7 +1,5 @@
 /**
-* This method will display 4 1D arrays and the resultant arrays of their multiplication 
-* as well as 2 2D arrays one of which is the multiple of the original one. It will also display whether thw two 2 2D arrays 
-* contain the same values as well as compare the initial 2D array to itself.
+* Applies various operations on matrix arrays
 *
 * @author Matthew Williams, Yulia Kosharych
 * @version 2018-04-23
@@ -134,7 +132,7 @@ public static class MatrixArrays {
      }
      return multArray;
    }  //end scalarMultiply()
- 
+
    /**
    *
    * @param int [][] array
